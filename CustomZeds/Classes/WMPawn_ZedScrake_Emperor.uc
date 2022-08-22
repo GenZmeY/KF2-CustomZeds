@@ -5,7 +5,7 @@ var const KFPawnAnimInfo ScrakeOmegaAnimInfo;
 
 static function string GetLocalizedName()
 {
-	return "Scrake Emperor";
+	return super.GetLocalizedName() @ class'CustomZeds.WMPawn_ZedConstants'.default.EmperorString;
 }
 
 simulated function PostBeginPlay()
@@ -29,7 +29,6 @@ defaultproperties
 	ScrakeOmegaAnimSet=AnimSet'ZedternalReborn_Zeds.Scrake.Scrake_Omega_AnimSet'
 	ScrakeOmegaAnimInfo=KFPawnAnimInfo'ZedternalReborn_Zeds.Scrake.Scrake_Omega_AnimGroup'
 	DifficultySettings=class'CustomZeds.WMDifficulty_Scrake_Emperor'
-	LocalizationKey="WMPawn_ZedScrake_Emperor"
 
 	RageHealthThresholdNormal=0.2f
 	RageHealthThresholdHard=0.225f

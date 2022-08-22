@@ -6,7 +6,7 @@ var const KFPawnAnimInfo ScrakeTinyAnimInfo;
 
 static function string GetLocalizedName()
 {
-	return "Tiny Scrake";
+	return class'CustomZeds.WMPawn_ZedConstants'.default.TinyString @ super.GetLocalizedName();
 }
 
 simulated function PostBeginPlay()
@@ -70,7 +70,6 @@ defaultproperties
 	ScrakeTinyAnimSet=AnimSet'ZedternalReborn_Zeds.Scrake.Tiny_Scrake_AnimSet'
 	ScrakeOmegaAnimSet=AnimSet'ZedternalReborn_Zeds.Scrake.Scrake_Omega_AnimSet'
 	ScrakeTinyAnimInfo=KFPawnAnimInfo'ZedternalReborn_Zeds.Scrake.Tiny_Scrake_AnimGroup'
-	LocalizationKey="WMPawn_ZedScrake_Omega"
 
 	RageHealthThresholdNormal=0.99f
 	RageHealthThresholdHard=0.99f

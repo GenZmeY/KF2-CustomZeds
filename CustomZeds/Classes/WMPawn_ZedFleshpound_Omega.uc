@@ -15,7 +15,7 @@ var const float ExtraAfflictionResistance, ExtraDamageResistance;
 
 static function string GetLocalizedName()
 {
-	return "Fleshpound Omega";
+	return super.GetLocalizedName() @ class'CustomZeds.WMPawn_ZedConstants'.default.OmegaString;
 }
 
 simulated function PostBeginPlay()
@@ -177,7 +177,6 @@ defaultproperties
 	AltRallyEffectBoneNames(1)="FX_EYE_R"
 	RallyEffectOffset=(X=0.0f,Y=0.0f,Z=0.0f)
 	AltRallyEffectOffset=(X=0.0f,Y=0.0f,Z=0.0f)
-	LocalizationKey="WMPawn_ZedFleshpound_Omega"
 
 	DefaultGlowColor=(G=0.25f)
 	FootstepCameraShakeInnerRadius=230.0f
@@ -196,6 +195,10 @@ defaultproperties
 		BaseDamage=30.0f
 		MaxHitRange=260.0f
 		MomentumTransfer=65000.0f
+	End Object
+
+	Begin Object Name=PointLightComponent1
+		LightColor=(R=127,G=63,B=255,A=255)
 	End Object
 
 	XPValues(0)=70

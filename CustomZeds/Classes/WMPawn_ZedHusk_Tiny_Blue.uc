@@ -2,15 +2,19 @@ class WMPawn_ZedHusk_Tiny_Blue extends WMPawn_ZedHusk_Tiny;
 
 static function string GetLocalizedName()
 {
-	return "Blue Tiny Husk";
+	return class'CustomZeds.WMPawn_ZedConstants'.default.BlueString @ super.GetLocalizedName();
 }
 
 defaultproperties
 {
-	glowColor=(R=0.6f, G=2.5f, B=5.0f)
+	glowColor=(R=0.12f, G=0.5f, B=1.0f)
+
+	Begin Object Name=ChestLightComponent0
+		LightColor=(R=30, G=127, B=255, A=255)
+	End Object
 
 	Begin Object Class=PointLightComponent Name=ExplosionPointLightBlue
-		LightColor=(R=31, G=128, B=255, A=255)
+		LightColor=(R=30, G=127, B=255, A=255)
 		bCastPerObjectShadows=False
 	End Object
 

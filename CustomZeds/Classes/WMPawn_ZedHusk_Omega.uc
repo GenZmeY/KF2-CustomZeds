@@ -9,7 +9,7 @@ var const float ExtraAfflictionResistance, ExtraDamageResistance;
 
 static function string GetLocalizedName()
 {
-	return "Husk Omega";
+	return super.GetLocalizedName() @ class'CustomZeds.WMPawn_ZedConstants'.default.OmegaString;
 }
 
 function PossessedBy(Controller C, bool bVehicleTransition)
@@ -197,7 +197,6 @@ defaultproperties
 	SuicideFireballClass=class'CustomZeds.WMProj_Husk_Fireball_Suicide'
 	ControllerClass=class'CustomZeds.WMAIController_ZedHusk_Omega'
 	DifficultySettings=class'CustomZeds.WMDifficulty_Husk_Omega'
-	LocalizationKey="WMPawn_ZedHusk_Omega"
 
 	bVersusZed=False
 	DoshValue=34
@@ -217,6 +216,18 @@ defaultproperties
 
 	Begin Object Name=SpecialMoveHandler_0
 		SpecialMoveClasses(SM_Custom1) = class'CustomZeds.WMSM_Husk_Omega_FireBallBarrageAttack'
+	End Object
+
+	Begin Object Name=ChestLightComponent0
+		LightColor=(R=127,G=63,B=255,A=255)
+	End Object
+
+	Begin Object Name=ExplosionPointLight
+		LightColor=(R=127,G=63,B=255,A=255)
+	End Object
+
+	Begin Object Name=ExploTemplate0
+		ExploLight=ExplosionPointLight
 	End Object
 
 	XPValues(0)=30

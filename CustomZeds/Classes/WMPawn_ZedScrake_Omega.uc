@@ -8,7 +8,7 @@ var const float ExtraAfflictionResistance, ExtraDamageResistance;
 
 static function string GetLocalizedName()
 {
-	return "Scrake Omega";
+	return super.GetLocalizedName() @ class'CustomZeds.WMPawn_ZedConstants'.default.OmegaString;
 }
 
 simulated function PostBeginPlay()
@@ -142,7 +142,6 @@ defaultproperties
 {
 	ScrakeOmegaAnimSet=AnimSet'ZedternalReborn_Zeds.Scrake.Scrake_Omega_AnimSet'
 	ScrakeOmegaAnimInfo=KFPawnAnimInfo'ZedternalReborn_Zeds.Scrake.Scrake_Omega_AnimGroup'
-	LocalizationKey="WMPawn_ZedScrake_Omega"
 
 	RageHealthThresholdNormal=0.6f
 	RageHealthThresholdHard=0.7f

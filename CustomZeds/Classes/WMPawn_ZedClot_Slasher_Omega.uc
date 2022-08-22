@@ -8,7 +8,7 @@ var const float ExtraAfflictionResistance, ExtraDamageResistance;
 
 static function string GetLocalizedName()
 {
-	return "Slasher Omega";
+	return super.GetLocalizedName() @ class'CustomZeds.WMPawn_ZedConstants'.default.OmegaString;
 }
 
 simulated function PostBeginPlay()
@@ -99,7 +99,6 @@ defaultproperties
 {
 	SlasherOmegaAnimSet=AnimSet'ZedternalReborn_Zeds.Slasher.Slasher_Clot_Omega_AnimSet'
 	SlasherOmegaAnimInfo=KFPawnAnimInfo'ZedternalReborn_Zeds.Slasher.Slasher_Clot_Omega_AnimGroup'
-	LocalizationKey="WMPawn_ZedSlasher_Omega"
 
 	bVersusZed=False
 	DoshValue=15

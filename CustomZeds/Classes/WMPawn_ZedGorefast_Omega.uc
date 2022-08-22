@@ -16,7 +16,7 @@ replication
 
 static function string GetLocalizedName()
 {
-	return "Gorefast Omega";
+	return super.GetLocalizedName() @ class'CustomZeds.WMPawn_ZedConstants'.default.OmegaString;
 }
 
 simulated function PostBeginPlay()
@@ -158,7 +158,6 @@ defaultproperties
 	ShieldImpactEffects=KFSkinTypeEffects_InvulnerabilityShield'KFGameContent.Default__KFPawn_ZedHans:ShieldEffects'
 	ControllerClass=class'CustomZeds.WMAIController_ZedGorefast_Omega'
 	DifficultySettings=class'CustomZeds.WMDifficulty_Gorefast_Omega'
-	LocalizationKey="WMPawn_ZedGorefast_Omega"
 
 	bShieldOn=False
 	bVersusZed=False

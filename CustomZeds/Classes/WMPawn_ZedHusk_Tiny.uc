@@ -4,7 +4,7 @@ var linearColor glowColor;
 
 static function string GetLocalizedName()
 {
-	return "Tiny Husk";
+	return class'CustomZeds.WMPawn_ZedConstants'.default.TinyString @ super.GetLocalizedName();
 }
 
 function PossessedBy(Controller C, bool bVehicleTransition)
@@ -30,7 +30,7 @@ simulated function UpdateGameplayMICParams()
 
 	super.UpdateGameplayMICParams();
 
-	if(WorldInfo.NetMode != NM_DedicatedServer)
+	if (WorldInfo.NetMode != NM_DedicatedServer)
 	{
 		for (i = 0; i < CharacterMICs.length; ++i)
 		{
