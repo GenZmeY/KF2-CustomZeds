@@ -44,7 +44,7 @@ function Popped()
 
 defaultproperties
 {
-	SpecialMoveClass=class'CustomZeds.WMSM_Husk_Omega_FireBallBarrageAttack'
+	SpecialMoveClass=class'WMSM_Husk_Omega_FireBallBarrageAttack'
 
 	Name="Default__WMAICommand_HuskOmegaFireBallBarrageAttack"
 }

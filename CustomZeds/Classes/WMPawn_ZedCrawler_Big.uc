@@ -4,7 +4,7 @@ var const float ExtraDamageResistance;
 
 static function string GetLocalizedName()
 {
-	return class'CustomZeds.WMPawn_ZedConstants'.default.BigString @ super.GetLocalizedName();
+	return class'WMPawn_ZedConstants'.default.BigString @ super.GetLocalizedName();
 }
 
 simulated function PostBeginPlay()
@@ -24,7 +24,7 @@ function float GetDamageTypeModifier(class<DamageType> DT)
 
 defaultproperties
 {
-	DifficultySettings=Class'CustomZeds.WMDifficulty_Crawler_Big'
+	DifficultySettings=class'WMDifficulty_Crawler_Big'
 
 	bKnockdownWhenJumpedOn=False
 	DoshValue=12

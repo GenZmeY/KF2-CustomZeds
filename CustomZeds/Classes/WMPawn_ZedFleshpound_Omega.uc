@@ -15,7 +15,7 @@ var const float ExtraAfflictionResistance, ExtraDamageResistance;
 
 static function string GetLocalizedName()
 {
-	return super.GetLocalizedName() @ class'CustomZeds.WMPawn_ZedConstants'.default.OmegaString;
+	return super.GetLocalizedName() @ class'WMPawn_ZedConstants'.default.OmegaString;
 }
 
 simulated function PostBeginPlay()

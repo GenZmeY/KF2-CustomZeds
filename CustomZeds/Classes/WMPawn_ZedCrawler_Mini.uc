@@ -2,7 +2,7 @@ class WMPawn_ZedCrawler_Mini extends WMPawn_ZedCrawler_NoElite;
 
 static function string GetLocalizedName()
 {
-	return class'CustomZeds.WMPawn_ZedConstants'.default.TinyString @ super.GetLocalizedName();
+	return class'WMPawn_ZedConstants'.default.TinyString @ super.GetLocalizedName();
 }
 
 simulated function PostBeginPlay()

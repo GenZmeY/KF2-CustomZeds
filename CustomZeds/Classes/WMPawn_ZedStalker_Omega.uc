@@ -5,7 +5,7 @@ var const float ExtraAfflictionResistance, ExtraDamageResistance;
 
 static function string GetLocalizedName()
 {
-	return super.GetLocalizedName() @ class'CustomZeds.WMPawn_ZedConstants'.default.OmegaString;
+	return super.GetLocalizedName() @ class'WMPawn_ZedConstants'.default.OmegaString;
 }
 
 simulated function PostBeginPlay()
@@ -61,7 +61,7 @@ simulated function AdjustAffliction(out float AfflictionPower)
 defaultproperties
 {
 	StalkerOmegaAnimSet=AnimSet'ZedternalReborn_Zeds.Stalker.Stalker_Omega_AnimSet'
-	DifficultySettings=class'CustomZeds.WMDifficulty_Stalker_Omega'
+	DifficultySettings=class'WMDifficulty_Stalker_Omega'
 
 	bVersusZed=False
 	DoshValue=22

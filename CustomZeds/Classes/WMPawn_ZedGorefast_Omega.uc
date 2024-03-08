@@ -16,7 +16,7 @@ replication
 
 static function string GetLocalizedName()
 {
-	return super.GetLocalizedName() @ class'CustomZeds.WMPawn_ZedConstants'.default.OmegaString;
+	return super.GetLocalizedName() @ class'WMPawn_ZedConstants'.default.OmegaString;
 }
 
 simulated function PostBeginPlay()
@@ -156,8 +156,8 @@ defaultproperties
 	GorefastOmegaAnimSet=AnimSet'ZedternalReborn_Zeds.Gorefast.Gorefast_Omega_AnimSet'
 	GorefastOmegaAnimInfo=KFPawnAnimInfo'ZedternalReborn_Zeds.Gorefast.Gorefast_Omega_AnimGroup'
 	ShieldImpactEffects=KFSkinTypeEffects_InvulnerabilityShield'KFGameContent.Default__KFPawn_ZedHans:ShieldEffects'
-	ControllerClass=class'CustomZeds.WMAIController_ZedGorefast_Omega'
-	DifficultySettings=class'CustomZeds.WMDifficulty_Gorefast_Omega'
+	ControllerClass=class'WMAIController_ZedGorefast_Omega'
+	DifficultySettings=class'WMDifficulty_Gorefast_Omega'
 
 	bShieldOn=False
 	bVersusZed=False

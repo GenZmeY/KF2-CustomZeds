@@ -9,7 +9,7 @@ var const float ExtraAfflictionResistance, ExtraDamageResistance;
 
 static function string GetLocalizedName()
 {
-	return super.GetLocalizedName() @ class'CustomZeds.WMPawn_ZedConstants'.default.OmegaString;
+	return super.GetLocalizedName() @ class'WMPawn_ZedConstants'.default.OmegaString;
 }
 
 function PossessedBy(Controller C, bool bVehicleTransition)
@@ -194,9 +194,9 @@ simulated event bool UsePlayerControlledZedSkin()
 defaultproperties
 {
 	HuskOmegaAnimSet=AnimSet'ZedternalReborn_Zeds.Husk.Husk_Omega_AnimSet'
-	SuicideFireballClass=class'CustomZeds.WMProj_Husk_Fireball_Suicide'
-	ControllerClass=class'CustomZeds.WMAIController_ZedHusk_Omega'
-	DifficultySettings=class'CustomZeds.WMDifficulty_Husk_Omega'
+	SuicideFireballClass=class'WMProj_Husk_Fireball_Suicide'
+	ControllerClass=class'WMAIController_ZedHusk_Omega'
+	DifficultySettings=class'WMDifficulty_Husk_Omega'
 
 	bVersusZed=False
 	DoshValue=34
@@ -215,7 +215,7 @@ defaultproperties
 	End Object
 
 	Begin Object Name=SpecialMoveHandler_0
-		SpecialMoveClasses(SM_Custom1) = class'CustomZeds.WMSM_Husk_Omega_FireBallBarrageAttack'
+		SpecialMoveClasses(SM_Custom1) = class'WMSM_Husk_Omega_FireBallBarrageAttack'
 	End Object
 
 	Begin Object Name=ChestLightComponent0

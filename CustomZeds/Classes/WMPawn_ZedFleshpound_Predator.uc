@@ -4,7 +4,7 @@ var linearColor PredatorColor;
 
 static function string GetLocalizedName()
 {
-	return super.GetLocalizedName() @ class'CustomZeds.WMPawn_ZedConstants'.default.PredatorString;
+	return super.GetLocalizedName() @ class'WMPawn_ZedConstants'.default.PredatorString;
 }
 
 simulated function PostBeginPlay()
@@ -45,7 +45,7 @@ simulated event bool UsePlayerControlledZedSkin()
 
 defaultproperties
 {
-	ControllerClass=Class'CustomZeds.WMAIController_ZedFleshpound_Predator'
+	ControllerClass=class'WMAIController_ZedFleshpound_Predator'
 
 	DefaultGlowColor=(G=0.25f)
 	PredatorColor=(R=0.2f,G=1.0f,B=0.1f)
