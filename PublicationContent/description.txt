@@ -34,8 +34,8 @@ Zeds from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2058869377
 Use a third party spawner, I recommend this one:
 https://steamcommunity.com/sharedfiles/filedetails/?id=2811290931
 
-[b]Translators:[/b]
-[url=https://steamcommunity.com/profiles/76561199126205919]cheungfatzong[/url] - Traditional Chinese [CHT], Simplified Chinese [CHN].
+[h1]Translators:[/h1]
+[url=https://steamcommunity.com/profiles/76561199126205919]cheungfatzong[/url] - Traditional [CHT] and Simplified [CHN] Chinese.
 
 [h1]Sources[/h1]
 [url=https://github.com/GenZmeY/KF2-CustomZeds]https://github.com/GenZmeY/KF2-CustomZeds[/url]
