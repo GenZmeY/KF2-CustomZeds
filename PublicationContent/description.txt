@@ -1,7 +1,9 @@
-[h1]Description[/h1]
+[img]https://img.shields.io/static/v1?logo=GitHub&labelColor=gray&color=blue&logoColor=white&label=&message=Open Source[/img] [img]https://img.shields.io/github/license/GenZmeY/KF2-CustomZeds[/img]
+
+[h1]📋 Description[/h1]
 Zeds from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2058869377]ZedternalReborn[/url], nothing more
 
-[h1]Zed List[/h1]
+[h1]📄 Zed List[/h1]
 [list]
 [*]CustomZeds.WMPawn_ZedBloatKing
 [*]CustomZeds.WMPawn_ZedClot_Slasher_Omega
@@ -30,12 +32,29 @@ Zeds from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2058869377
 [*]CustomZeds.WMPawn_ZedStalker_Omega
 [/list]
 
-[h1]Usage[/h1]
-Use a third party spawner, I recommend this one:
-https://steamcommunity.com/sharedfiles/filedetails/?id=2811290931
+[h1]🖥️ Usage[/h1]
+Use a third party spawner, I recommend this one: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2811290931]Zed Spawner[/url]
 
-[h1]Translators:[/h1]
-[url=https://steamcommunity.com/profiles/76561199126205919]cheungfatzong[/url] - Traditional [CHT] and Simplified [CHN] Chinese.
+[b]Alternative spawners:[/b]
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2488241348]Custom Zed Spawn Mutator[/url]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1082749153]Custom Zed Waves[/url]
+[/list]
 
-[h1]Sources[/h1]
-[url=https://github.com/GenZmeY/KF2-CustomZeds]https://github.com/GenZmeY/KF2-CustomZeds[/url]
+[h1]🌍 Credits[/h1]
+[list]
+[*][url=https://steamcommunity.com/profiles/76561198005090267]Mr.Wuebec[/url] - Zedternal
+[*][url=https://steamcommunity.com/profiles/76561198011870906]Fleet Killer[/url], [url=https://steamcommunity.com/profiles/76561198032449714]Cruz Controlled[/url] - Zedternal Reborn
+[*]The cat on the cover is Meawbin (original character by [url=https://x.com/horrormove]Cotton Valent[/url]).
+[/list]
+[b]Translators:[/b]
+[list]
+[*][url=https://steamcommunity.com/profiles/76561199126205919]cheungfatzong[/url] - Traditional [CHT] and Simplified [CHN] Chinese.
+[/list]
+
+[h1]☑️ Status: Completed[/h1]
+✔️ The mutator works with the current version of the game (v1150) and I have implemented everything I planned.
+⛔️ Development has stopped: I no longer have the time or motivation to maintain this mod. No further updates or bug fixes are planned.
+
+[h1]📜 Sources[/h1]
+https://github.com/GenZmeY/KF2-CustomZeds [b](GNU GPLv3)[/b]
